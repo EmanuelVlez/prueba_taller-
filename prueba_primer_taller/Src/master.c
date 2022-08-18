@@ -19,8 +19,14 @@
 
 #include <stdint.h>
 
-int main(void)
-{
+unsigned char anos = 0;
+signed short dias = 0;
+
+int main(void){
+
+	anos = 10;
+	dias = 365;
+
     /* Loop forever */
 	for(;;);
 }
